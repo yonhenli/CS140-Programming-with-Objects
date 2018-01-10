@@ -1,0 +1,23 @@
+package lab02;
+
+public class Book{
+
+private String title;
+private int numPages;
+
+	public Book (String aTitle, int anNumPages) {
+	this.aTitle = title;
+	this.anNumPages = numPages;	
+	
+	}
+
+	public String getTitle() {	
+	return title;
+	}
+
+	public int getNumPages() {
+	return numPages;
+	}
+
+	
+}
